@@ -1,5 +1,128 @@
-Hello. Welcome to Dr. Darshan Kakkad's personal website. This page is currently under construction. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Darshan Kakkad</title>
+    <link rel="stylesheet" href="main.css"> <!-- Link to the astronomy-themed CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Using Google Fonts -->
+</head>
+<body>
 
-This will be updated in the next few days. Thank you for your patience. 
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#teaching">Teaching & Supervision</a></li>
+            <li><a href="#links">Useful Links</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-In the meantime, please feel free to get in touch with me via darshankakkad@gmail.com .
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>Explore my work, research, and contributions to the world of astronomy!</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+          Hello! I am a Centre for Astrophysics Research fellow at the University of Hertfordshire in the UK. My primary research goal is to investigate the impact of supermassive black holes on the formation and evolution of galaxies. I obtained my Bachelors and Masters degree in Physics from University of Delhi and Indian Institute of Technology-Madras, respectively. Thereafter, I did my PhD from Ludwig Maximilian University. I have extensively used Integral Field Spectroscopy (IFS) and sub-mm spectroscopy for my research from some of the most competitive astronomical facilities such as the Very Large Telescope, Atacama Large Millimeter/sub-mm Array and soon, the James Webb Space Telescope. I am an active member of large international collaborations, namely GOALS, 4MOST (CHANGES), SUPER, BASS, S7 and QFeedS. Previously, I have also supported the operations of ground-based and space telescopes as an ESO fellow in Santiago, Chile and an STScI Prize Fellow in Baltimore, US. I have also led technical SPIE papers as a part of the HARMONI instrument team, where I developed new sky-subtraction methods for upcoming IFS instruments on board Extremely Large Telescopes.
+        </p>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="container">
+        <h2>Research (under construction)</h2>
+        <p>The primary goal of my research projects is to search for direct or indirect evidence of how supermassive black holes affect the evolution of their host galaxies. I have been using data from telescopes such as VLT, Keck, JWST, ALMA to trace gas in multiple phases.</p>
+	<p>Browse through this page for key research highlights. </p>
+
+	<p><b>Discovery of the closest separation dual AGN in UGC 4211:</b> Using multi-wavelength high resolution observations with state-of-the-art instrumentation, such as VLT/MUSE, ALMA, Keck/OSIRIS and HST, we find two AGN at a projected separation of ~230 pc, closest separation known yet for a black hole pair. Here's the <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...942L..24K/abstract">link</a> to the paper. </p>
+
+	<p><b>MUSE-AO observations of the Circinus galaxy:</b> A "tuning-fork" outflow morphology in the Circinus galaxy as observed by the Adaptive Optics assisted MUSE instrument on board the VLT. Presented in <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.5324K/abstract">Kakkad et al. (2023)</a>, this structure remained undetected in previous low resolution observations.</p>
+
+	<p><b>Spatially-resolved outflows using Integral Field Spectrographs:</b> I have led and am involved in several projects that map the distribution of ionised gas in galaxies and characterise outflows associated with them. My future work focuses on gathering a holistic picture of outflows by using multi-wavelength observations from telescopes such as JWST, ALMA, VLT and JVLA that will target multiple gas phases. This work is done in collaboration with several international teams such as <a>BASS</a>, <a>GOALS</a>, <a>SUPER</a>, <a>S7</a> and <a>QFeedS</a> (a non-exhaustive list). Check out <a>Kakkad et al. (2016)</a>, <a>Kakkad et al. (2018)</a>, <a>Kakkad et al. (2020)</a>, <a>Kakkad et al. (2022)</a> and <a>Kakkad et al. (2023a)</a> for further details</p>
+
+	<p>Further Research details coming soon</p>
+	
+<!--	<p>
+PSF-subtraction in IFS data
+
+For seeing-limited Integral Field Spectroscopic observations of AGN host galaxies at high redshift, it is extremely important to take into account beam smearing effects due to the AGN point spread function (PSF). Using the emission from Broad Line Region (BLR) as an estimate for the PSF, I performed the PSF-subtraction in near-infrared IFS observations of z=2 AGN host galaxies. I found that nearly 50% of the observed [OIII] emission is not extended. Further details of this procedure can be found in Kakkad et al. (2020).
+
+Resolved BPT maps
+
+One of the best things about Integral Field Spectroscopy is its capability to produce such diagnostic diagrams to map the source of ionisation in galaxies. The plot on the left shows a BPT diagram which divides the parameter space into regions ionised by star formation, AGN and composite processes. Each data point corresponds to a pixel in the map on the right. The magenta contours show the location of the HII regions, which are coincident with the blue regions indicative of ionisation by star formation. Further details in Kakkad et al. (2018).
+
+Electron densities in AGN host galaxies
+
+Electron density values are highly useful in determining key outflow parameters such as mass outflow rates. The map here shows the electron density distribution in a low redshift galaxy derived from the [SII]6716,6731 doublet. The magenta contours are the sites of HII emission (star formation) and the orange contour show the location of the AGN ionisation cone. Star forming regions show an enhancement in the electron density values. Similar maps were derived for the outflowing media, which can be found in Kakkad et al. (2018).
+
+
+Molecular gas content in high-z galaxies
+
+Ever wondered what the molecular gas fractions of AGN host galaxies compare with non AGN host galaxies? Kakkad et al. (2017) provides an answer, at least for galaxies at the Cosmic noon (z = 2). AGN host galaxies (coloured symbols and lines in this plot) consistently show low molecular gas fractions when compared with normal star forming galaxies.
+
+Outflow-AGN scaling relations
+
+Outflow properties, namely velocity, mass outflow rates and kinetic energy show strong correlations with the bolometric luminosity of the AGN. In Kakkad et al. (2022), I derived spatially resolved mass outflow rates, eliminating the need for assumptions in outflow models that resulted in systematic uncertainties of multiple orders of magnitude. The result: Correlations of outflow properties exist with bolometric luminosity, but are weak with black hole mass and Eddington ratios. 
+
+Up next
+
+The recently launched James Webb Space Telescope (JWST) has already proved its capability in detecting galaxies at some of the highest redshifts observed to date. It's IFU capabilities will provide unprecedented spatial resolution and sensitivity to conduct kinematic analysis of galaxies up to high redshifts. Watch this page for new JWST results on gas kinematics at cosmic noon in the upcoming months. Image Credit: NASA
+
+An integral field spectrograph operating in the optical wavelengths, the MUSE instrument on board the Very Large Telescope is one of the most subscribed instruments at the observatory. I am the PI of two MUSE programmes for which the observations will start in 2022-2023. Stay tuned for new results. Image credit: ESO
+
+The Atacama Large Millimetre-submillimetre Array (ALMA) is a state-of-the-art interferometric facility in the Atacama Desert in Chile. Located at a height of about 5000 m, the facility has provided insights into the molecular gas and dust composition of nearby and distant galaxies. Exciting new results will be coming up on molecular gas observations of extragalactic sources in the next month, so stay tuned. Image credit: ALMA
+
+4MOST is a next-generation fibre-fed spectroscopic facility operated by the European Southern Observatory. The survey will provide millions of galaxy spectra in the second half of 2020s and will tackle some of the fundamental questions on galaxy evolution and AGN feedback. I am a member of the 4MOST community survey, CHANGES (PI: F. Bauer) that will target variability-selected AGN from existing and planned surveys. Full science operations of 4MOST are expected to start in 2024.
+        </p>-->
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="container">
+        <h2>CV</h2>
+        <p>Under construction</p>
+    </section>
+
+    <!-- Teaching & Supervision Section -->
+    <section id="teaching" class="container">
+        <h2>Teaching & Supervision</h2>
+        <p>
+            Under construction
+        </p>
+    </section>
+
+    <!-- Useful Links Section -->
+    <section id="links" class="container">
+        <h2>Useful Links</h2>
+        <ul>
+            <!--<li><a href="https://www.nasa.gov/" target="_blank">NASA</a></li>-->
+            <!--<li><a href="https://www.esa.int/" target="_blank">European Space Agency</a></li>-->
+            <!--<li><a href="https://www.lsst.org/" target="_blank">LSST Project</a></li>-->
+            <!--<li><a href="https://arxiv.org/" target="_blank">arXiv Preprints</a></li>-->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>
+            Feel free to reach out to me via email at <a href="mailto:darshankakkad@gmail.com">darshankakkad@gmail.com</a>.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Darshan Kakkad - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
