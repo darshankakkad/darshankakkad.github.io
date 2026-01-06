@@ -73,6 +73,29 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+.research-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.research-item summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #003366;
+    font-size: 1.05rem;
+}
+
+.research-item summary:hover {
+    text-decoration: underline;
+}
+
+.research-item[open] {
+    background: #ffffff;
+}
+
 /* Footer */
 footer {
     margin-top: 2rem;
